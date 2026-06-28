@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Extension packaging artifacts
+*.zip
+*.crx
+*.pem
+
+# Build/output folders
+build/
+dist/
+release/
+
+# Logs
+*.log
