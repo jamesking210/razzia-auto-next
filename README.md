@@ -43,6 +43,7 @@ The extension does not add anything on top of the Razzia page. There is no on-sc
   - HTTP domain
   - HTTPS domain
 - Stores only the ON/OFF setting locally in Chrome
+- No server, no analytics, no tracking
 
 ---
 
@@ -80,7 +81,10 @@ This extension is currently installed as an unpacked Chrome extension.
 
 ### 1. Download and extract
 
-Download the ZIP file from the GitHub release page.
+For public testing, use one of these options:
+
+- Click **Code** → **Download ZIP** on this GitHub repo, or
+- Download the ZIP from the GitHub **Releases** page if a release has been posted.
 
 Right-click the ZIP and choose **Extract All**.
 
@@ -120,7 +124,7 @@ Select the extracted folder that contains:
 manifest.json
 background.js
 content.js
-images
+images/
 ```
 
 ### 5. Pin the extension
@@ -303,6 +307,8 @@ Razzia Auto Next does not collect, transmit, sell, or share user data.
 It stores only its ON/OFF setting locally in Chrome using Chrome extension storage.
 
 There is no server, no account, no analytics, and no tracking.
+
+See [`PRIVACY.md`](PRIVACY.md) for the standalone privacy note.
 
 ---
 
