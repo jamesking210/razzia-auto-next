@@ -1,10 +1,23 @@
 # Changelog
 
-## 5.0.0
+## 1.0.0
 
-- Public/shareable package name: `Razzia Auto Next`.
-- Keeps the proven v4 behavior.
-- Toolbar ON/OFF toggle.
-- OFF immediately cancels pending clicks.
-- 5-second delay before clicking Next.
-- Uses portable manager route matches for localhost, LAN IPs, `.local` hosts, and HTTPS domains.
+Public beta release for GitHub testing.
+
+### Added
+
+- Portable Razzia manager route support:
+  - `/manager`
+  - `/party/manager/...`
+- Support for localhost, LAN IPs, local hostnames, HTTP domains, and HTTPS domains.
+- 5-second delay before clicking the visible Razzia **Next** button.
+- Chrome toolbar ON/OFF toggle.
+- OFF cancels pending delayed clicks immediately.
+- Local-only ON/OFF setting stored in Chrome extension storage.
+- README, privacy note, and issue template for public testers.
+
+### Notes
+
+- This is not a Chrome Web Store release yet.
+- Install with Chrome Developer Mode using **Load unpacked**.
+- Do not leave multiple versions enabled at the same time.
