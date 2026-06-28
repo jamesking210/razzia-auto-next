@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
   "name": "Razzia Auto Next",
-  "version": "5.0.0",
-  "description": "Invisible 5-second auto-clicker for the Razzia manager Next button, with a toolbar ON/OFF toggle that cancels pending clicks.",
+  "version": "1.0.0",
+  "description": "Auto-clicks the Razzia manager Next button after 5 seconds, with a toolbar ON/OFF toggle for hosts.",
+  "homepage_url": "https://github.com/jamesking210/razzia-auto-next",
   "permissions": [
     "storage"
   ],
